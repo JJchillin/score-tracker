@@ -5,7 +5,7 @@ import './App.css';
 import Home from './components/Home';
 import Scores from './components/Scores';
 
-
+//comment
 class App extends Component {
   render() {
     return (

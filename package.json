@@ -1,0 +1,19 @@
+{
+    "name": "project-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "heroku-postbuild": "npm install && cd cilent && npm install && npm run build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-promise-router": "^3.0.3",
+        "pg": "^7.18.2"
+    }
+}

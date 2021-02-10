@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Mandali:400,700,900');
+
+.home {
+    font-family: 'Mandali', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #7C96C1;
+}
+
+.home-container {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    justify-content: center;
+}
+
+.home-title {
+    color: #2C4f89;
+    margin: auto;
+}
+
+.home-subtitle {
+    color: #466599;
+    margin: auto;
+}
+
+.home-button {
+    height: 30%;
+    width: 100%;
+    padding: 0.8rem;
+    border-color: #D9E5F9;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    color: #D9E5F9;
+    background-color: #7C96C1;
+    margin-top: 3vh;
+    border: solid;
+    cursor: pointer;
+}
+
+.home-button:hover {
+    border-color: #2C4f89;
+    color: #2C4f89;
+}

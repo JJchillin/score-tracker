@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Mandali:400,700,900');
+
+body {
+    background-color: #7C96C1;
+    font-family: 'Mandali', sans-serif;
+}
+
+ul {
+    margin: 0;
+}
+
+.title {
+    color: #2C4f89;
+    margin: auto;
+    padding: 3%;
+}
+
+.scoreboard {
+    margin-bottom: 5%;
+    display: inline-block;
+    width: 85%;
+}
+
+.scoreboard-header {
+    display: inline-block;
+    font-weight: 700;
+    color: #466599;
+    font-size: 2.5vh;
+    text-align: left;
+}
+
+.name-header {
+    width: 70%;
+}
+
+.score-header {
+    width: 30%;
+}
+
+.player {
+    width: 100%;
+}
+
+.player-list-name {
+    display: inline-block;
+    color: #D9E5F9;
+    font-size: 2.3vh;
+    text-align: left;
+    width: 80%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.player-list-score {
+    display: inline-block;
+    color: #D9E5F9;
+    font-size: 2.3vh;
+    text-align: left;
+    width: 10%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.player-item {
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px sold #D9E5F9;
+    margin-top: 1%;
+    padding-left: 0%;
+}
+
+.add-player {
+    margin-bottom: 5%;
+    display: inline-block;
+    width: 75%;
+    border-bottom: 2px solid #D9E5F9;
+    border-top: 2px solid #D9E5F9;
+}
+
+.player-name-input {
+    display: inline-block;
+    height: 4vh;
+    width: 88%;
+    font-size: 1.8vh;
+    border: none;
+    background-color: #7C96C1;
+    color: #D9E5F9;
+}
+
+input {
+    text-align: center;
+}
+
+::placeholder {
+    color: #D9E5F9;
+}
+
+.math-button {
+    background-color: #7C96C1;
+    border: none;
+    color: #D9E5F9;
+}
+
+.math-button:hover {
+    color: #2C4f89;
+}
+
+.h-button {
+    height: 6vh;
+    width: 75vh;
+    border-color: #D9E5F9;
+    border-radius: 0.4rem;
+    font-size: 2vh;
+    color: #D9E5F9;
+    background-color: #7C96C1;
+    margin-top: 3vh;
+    border: solid;
+    cursor: pointer;
+    margin-bottom: 5vh;
+}
+
+.h-button:hover {
+    border-color: #2C4f89;
+    color: #2C4f89;
+}
+
+.add-char {
+    font-size: 3.5vh;
+}
+
+.delete-char {
+    font-size: 3vh;
+}
+
+.adjust-score-char {
+    font-size: 1.5vh;
+}
